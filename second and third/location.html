@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script src="script.js"></script>-->
+
+<!--<div id="navbar">
+    <span> Geolocation API</span>
+
+</div>
+<div id="wrapper">
+    <button id="location-button">Get User Location</button>
+    <div id="output">
+
+    </div>
+    </div>
+
+-->
+
+
+<p><button id="Btn1" onclick="getCurrentPosition()";> GetCurrentPosition </button></p>
+<script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log("navigator.geolocation works well");
+    }
+
+    function onSuccess (position) {
+        alert('Latitude: '          + position.coords.latitude          + '\n' +
+                'Longitude: '         + position.coords.longitude         + '\n' +
+                'Altitude: '          + position.coords.altitude          + '\n' +
+                'Accuracy: '          + position.coords.accuracy          + '\n' +
+                'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                'Heading: '           + position.coords.heading           + '\n' +
+                'Speed: '             + position.coords.speed             + '\n' +
+                'Timestamp: '         + position.timestamp                + '\n');
+    };
+
+    function onError(error) {
+        alert('code: '    + error.code    + '\n' +
+                'message: ' + error.message + '\n');
+    }
+
+
+        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+
+
+   </script>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+.part0 {
+background:url(planets.jpg)  fixed center;
+background-size:6000px 3000px;
+background-repeat:no-repeat;
+}
+
+.main {
+margin-left:1400px;
+width:4000px;
+}
+
+.part1 {
+width:2500px;
+height:2500px;
+}
+
+.part11 {
+margin-top:800px;
+margin-left:500px;
+  /*  font-weight:500px;*/
+font-size:150px;
+color:white;
+border:white solid 10px;
+float:left;
+}
+
+
+
+.gallerycover {
+width:2500px;
+height:2500px;
+background-color:white;
+}
+
+
+.gallerytext {
+font-size:70px;
+padding-top:250px;
+margin-left:1000px;
+font-weight:bold;
+}
+
+u {
+color:brown;
+}
+
+.part2 {
+background-color:#CFCFCF;
+width:2500px;
+height:1870px;
+opacity:9;
+padding:2px;
+border-radius:50px;
+margin-top:180px;
+}
+
+
+
+.part21 {
+display:flex;
+width:1000px;
+height:200px;
+padding:2px 2px;
+margin-top:70px;
+margin-left:70px;
+}
+
+.part22 {
+display:flex;
+width:1000px;
+height:200px;
+padding:2px 2px;
+margin-top:400px;
+margin-left:70px;
+}
+
+.part211 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+
+}
+.part212 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part213 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part214 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part221 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part222 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part223 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part224 {
+width:500px;
+height:500px;
+margin-left:50px;
+border:10px solid yellow;
+}
+.part23 {
+width:500px;
+height:500px;
+padding:2px 2px;
+margin-top:400px;
+margin-left:990px;
+border:10px solid yellow;
+}
+
+
+.hand1 {
+width:2500px;
+height:600px;
+text-align:center;
+background-color:#CFCFCF;
+margin-top:0px;
+
+} 
+
+
+
+.hand11 {
+font-weight:bold;
+font-size:50px;
+padding:30px;
+color:brown;
+
+} 
+
+.hand2 {
+background-color:#8D8D8D;
+padding:20px;
+width:1000px;
+margin-left:700px;
+border-radius:10px;
+margin-top:-50px;
+}
+
+.hand21 {
+background-color:#CFCFCF;
+border-radius:10px;
+width:800px;
+margin-left:100px;
+}
+
+h2  {
+text-align:center;
+}
+
+h3  {
+text-align:center;
+}
+
+
+h4  {
+text-align:center;
+}
+
+
+
+.hand211 {
+width:220px;
+height:20px;
+margin-top:5px;
+margin-left:-50px;
+}
+
+.hand212 {
+width:220px;
+height:20px;
+margin-top:5px;
+margin-left:20px;
+}
+
+.hand213 {
+width:220px;
+height:20px;
+margin-top:5px;
+margin-left:20px;
+}
+.hand214 {
+width:220px;
+height:20px;
+margin-top:5px;
+margin-left:-555px;
+
+}
+
+.hand215 {
+background-color:#828282;
+border-radius:5px;
+margin-top:20px;
+margin-left:-10px;
+width:100px;
+height:30px;
+font-weight:500;
+}
+
+.hand216 {
+background-color:black;
+margin-left:520px;
+}
+
+b {
+color:black;
+}
+
+
+b {
+color:#CFCFCF;
+}
+
+
+.footer {
+width:2500px;
+height:70px;
+background-color:#8D8D8D;
+margin-top:0px;
+}
+.footer1 {
+color:black;
+padding-top:25px;
+padding-left:2200px;
+}
